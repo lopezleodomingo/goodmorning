@@ -1,0 +1,65 @@
+.letter, .space {
+	width: 40px;
+	height: 40px;
+	border-radius: 15%;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 5px;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+#hint {
+	text-align: center;
+}
+
+.choice:hover{
+	box-shadow: 3px 3px blue;
+}
+.choice{
+	cursor: pointer;
+}
+
+
+.space {
+	background-color: orangered
+}
+.letter{
+	background-color: green;
+}
+
+#answerDiv {
+	margin-top: 75px;
+	background-color: orangered;
+	padding: :15px;
+}
+
+.disabledDiv {
+	width: 40px;
+	height: 40px;
+	border-radius: 15%;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	display: inline-block;
+	margin-top: 5px;
+	vertical-align: top;
+	background-color: grey;
+	cursor: default;
+}
+
+
+.ekis {
+	width: 80px;
+	height: 100px;
+	background-color: yellow;
+	color: red;
+	font-size: 60px;
+	line-height: 80px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bolder;
+}
