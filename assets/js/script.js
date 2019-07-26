@@ -41,7 +41,7 @@ letterBtns.forEach( function(letterBtn) {
 	letterBtn.addEventListener("click", letterBtnClick);
 });
 
-let phrase = "GOOD MORNING BEB I LOVE YOU MWAH";
+let phrase = "GOOD MORNING BEB I LOVE YOU MWAH KAIN KA NA";
 
 for(let i=0; i<phrase.length; i++) {
 	if(phrase[i] != " ") {
